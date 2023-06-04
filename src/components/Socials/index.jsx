@@ -22,16 +22,16 @@ export default function Media() {
           <i className="fab fa-3x fa-linkedin-in"></i>
         </a>
       </div>
-      <div className="single">
+      {/* <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
           <i className="fab fa-3x fa-twitter"></i>
         </a>
-      </div>
-      <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-          <i className="fab fa-3x fa-dev"></i>
+      </div> */}
+      {/* <div className="single">
+        <a rel="noreferrer" target="_blank" href={SOCIALS.github}>
+          <i className="fab fa-3x fa-github"></i>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

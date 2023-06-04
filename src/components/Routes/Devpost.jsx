@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 
-function Devpost() {
+function Github() {
   useEffect(() => {
-    window.location.href = 'https://limbo-hacks-12968.devpost.com/';
+    window.location.href = 'https://github.com/webd-iitbbs';
   });
   return <div></div>;
 }
 
-export default Devpost;
+export default Github;

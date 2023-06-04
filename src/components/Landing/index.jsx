@@ -34,7 +34,7 @@ const Myinfo = () => {
             ico="fab fa-2x fa-discord"
             class="join_disco"
             type="Join our discord"
-            overlay="Click the link"
+            overlay="WebnD@Discord"
           />
         </a>
       </div>

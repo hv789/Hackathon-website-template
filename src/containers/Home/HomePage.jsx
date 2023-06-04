@@ -145,7 +145,10 @@ export default function HomePage() {
         {media && <Birds top="120vh" left="0vh" type="" />}
 
         {/* ********Team here ***** */}
-        <h1 id="team">Our Team</h1>
+
+        <Row className="sponsorSection" id="sponsors">
+          <h1 id="team">Our Team</h1>
+        </Row>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -158,7 +161,9 @@ export default function HomePage() {
 
         {/* ********Judges here ***** */}
 
-        <h1 id="team">Judges</h1>
+        <Row className="sponsorSection" id="sponsors">
+          <h1 id="team">Judges</h1>
+        </Row>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"

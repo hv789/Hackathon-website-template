@@ -22,7 +22,7 @@ button {
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  background: linear-gradient(90deg, #9796F0 0%, #c88d9d 100%);
 }
 
 .join_disco i {
@@ -47,7 +47,7 @@ button {
 }
 
 .AboutMe h2 {
-  font-size: 8rem;
+  font-size: 7rem;
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -82,7 +82,7 @@ p {
 }
 
 .overlay-text {
-  font-weight: 300;
+  font-weight: 400;
   color: #2C4677;
   font-size: 17px;
   position: absolute;

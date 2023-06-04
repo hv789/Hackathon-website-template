@@ -34,50 +34,48 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'Join Code Relay 2.0',
+  Typed_effect: ['72 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on 15th July 2023 with hundreds of students from across the nation for 72 hours of creation, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+  JUDGES_FORM_LINK: '',
+  HACKERS_REGISTRATION_FORM_LINK: ''
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
+  instagram: 'https://www.instagram.com/webnd.iitbbs',
   discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
+  linkedin: 'https://www.linkedin.com/company/webd-iitbbs',
   twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  github: 'https://github.com/webd-iitbbs',
+  email: 'secyweb.sg@iitbbs.ac.in',
+  mail: 'secyweb.sg@iitbbs.ac.in'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is Code Relay 2.0?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Code Relay 2.0 is a 72 hours long annual coding hackathon conducted by the Web & Design society of IIT Bhubaneswar. It is a platform where aspiring coders and programmers come together to showcase their talent, learn from experts, and network with peers. The event promises to be bigger and better this year, with more exciting challenges and opportunities for participants to win prizes and recognition.',
   LOGO: hackathonLogo
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
-    required: true,
+    required: false,
     src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
   },
   JOIN_TEAM: {
-    required: true,
+    required: false,
     src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
   },
   Privacy_policy: {
-    required: true,
+    required: false,
     src: ''
   },
   Terms_of_use: {
-    required: true,
+    required: false,
     src: ''
   }
 };
@@ -90,63 +88,53 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 7,
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '15-7-2023',
     events: [
       {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        title: 'Hacking Period Begins',
+        timings: 'Starts at 00:00 AM',
+        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
       }
     ]
   },
   {
-    day: '5-12-2021',
+    day: '16-7-2023',
     events: [
       {
-        title: 'Intro to deep learning',
+        title: 'Doubts Clearing Session 01',
         timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
       },
       {
-        title: 'Intro to deep learning',
+        title: 'Doubts Clearing Session 02',
         timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
       }
     ]
   },
   {
-    day: '3-12-2021',
+    day: '17-7-2023',
     events: [
       {
-        title: 'Intro to phycycology',
+        title: 'Preliminary Evaluation',
         timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
       }
     ]
   },
   {
-    day: '1-12-2021',
+    day: '18-7-2023',
     events: [
       {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '1-1-2022',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        title: 'Hacking Period Ends',
+        timings: 'Ends at 00:00 AM',
+        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
       }
     ]
   }
@@ -230,21 +218,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
+      name: 'Anurag Mani Tripathi',
+      role: 'Secretary',
+      github: '',
+      linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/',
       img: me
     },
     {
-      Name: 'Moon',
+      name: 'Moon',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: moon
     },
     {
-      Name: 'Erika',
+      name: 'Erika',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -254,14 +242,14 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      name: 'Lyanola',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
+      name: 'Zoheb',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -274,21 +262,21 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      name: 'Anurag Mani Tripathi',
+      role: 'Secretary',
       github: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/',
       img: me
     },
     {
-      Name: 'Moon',
+      name: 'Moon',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: moon
     },
     {
-      Name: 'Ryah Garcia',
+      name: 'Ryah Garcia',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -298,14 +286,14 @@ const JudgesInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      name: 'Lyanola',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
+      name: 'Zoheb',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -336,34 +324,33 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is an event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'Code Relay 2.0 is open to all undergraduate, high school students and middle school students from across the country.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. Code Relay 2.0 will help you get started with hackathon and hacking in general.'
       },
       {
         label: 'How team formation works?',
-        content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        content: 'You can form team with 1-4 members in it.'
       }
     ],
     [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'All you need is to register through Devfolio and join our Discord, we will guide you through everything there.'
       },
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly at (secyweb.sg@iitbbs.ac.in) We would be happy to help you.'
       },
       {
         label: 'Can i volunteer?',

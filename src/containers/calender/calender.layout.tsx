@@ -35,7 +35,7 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
             className="card-top-inner-item"
             onClick={() => dispatch(handleActionBack)}
           >
-            P
+            <i className="fas fa-chevron-left"></i>
           </Flexbox>
           <Flexbox
             justifyCenter
@@ -45,7 +45,7 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
             }`}
             onClick={() => dispatch(handleActionProcced)}
           >
-            N
+            <i className="fas fa-chevron-right"></i>
           </Flexbox>
         </Flexbox>
       </Flexbox>

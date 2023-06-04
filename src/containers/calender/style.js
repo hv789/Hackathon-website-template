@@ -6,14 +6,14 @@ export const Container = styled.div`
   max-height: 520px;
 
   background-color: white;
-  border-radius: 8px;
+  border-radius: 30px;
 
   margin: 20px 0;
 
   .card-top {
-    background-color: #b2b2b2;
+    background-color: #969494;
     height: 80px;
-    border-radius: 8px 8px 0 0;
+    border-radius: 30px 30px 0 0;
     padding: 0 5%;
     overflow: auto;
 
@@ -56,7 +56,7 @@ export const Container = styled.div`
       border-radius: 8px;
       margin: 10px 4px;
       background: #fff;
-      color: #e0e0e0;
+      color: #d0c5c5;
       &__active {
         transition: 0.2s;
         color: #241b5b;
@@ -74,7 +74,7 @@ export const Container = styled.div`
           &:after {
             position: absolute;
             content: '';
-            width: 6px;
+            width: 9px;
             height: 6px;
             background-color: #ff4a6f;
             bottom: -5px;

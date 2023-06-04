@@ -4,12 +4,13 @@ import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
 import logoClose from './assets/ham-c.svg';
+import logoo from './assets/logoo.png';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
 import {MdxContent} from '../Mdx';
 
-const NAVIGATION_OFFSET = 66;
+const NAVIGATION_OFFSET = 750;
 
 const Wrapper = styled.div`
   display: block;
@@ -97,28 +98,28 @@ const NAVBAR = ({}) => {
           <div className="nav-content" ref={navigation}>
             <ul>
               <li>
-                <Link to={`#home`}>
+                <Link to={`#home`} style={{textDecoration: 'none'}}>
                   <span className="links">Home </span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#faq`}>
+                <Link to={`#faq`} style={{textDecoration: 'none'}}>
                   <span className="links">FAQ </span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#prizes`}>
-                  <span className="links">prizes </span>{' '}
+                <Link to={`#prizes`} style={{textDecoration: 'none'}}>
+                  <span className="links">Prizes </span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#sponsors`}>
-                  <span className="links">sponsors </span>{' '}
+                <Link to={`#sponsors`} style={{textDecoration: 'none'}}>
+                  <span className="links">Sponsors </span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#team`}>
-                  <span className="links">team </span>{' '}
+                <Link to={`#team`} style={{textDecoration: 'none'}}>
+                  <span className="links">Team </span>{' '}
                 </Link>
               </li>
               <img
@@ -130,11 +131,6 @@ const NAVBAR = ({}) => {
           </div>
           <div className="ease" />
         </Wrapper>
-        <img
-          className="s-open"
-          onClick={() => setToggle(false)}
-          src={hamLogo}
-        />
       </nav>
 
       <Switch>
