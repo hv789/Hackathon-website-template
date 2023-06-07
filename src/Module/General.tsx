@@ -354,7 +354,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will receiving Code Relay swag!.'
       }
     ]
   ]
