@@ -7,18 +7,18 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  */
 
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
+import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import polygon from './Assets/sponsorsLogos/polygon.png';
+import solana from './Assets/sponsorsLogos/solana.png';
+import filecoin from './Assets/sponsorsLogos/filecoin.png';
+import replit from './Assets/sponsorsLogos/replit.png';
+// import glimpse from './Assets/sponsorsLogos/glimpse.png';
+// import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
+// import ll from './Assets/sponsorsLogos/ll.png';
 import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
+// import Replit from './Assets/sponsorsLogos/replit.png';
+// import sublime from './Assets/sponsorsLogos/sublime.png';
+// import taskade from './Assets/sponsorsLogos/taskade.png';
 import lyin from './Assets/teami/lyin.jpg';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
@@ -309,10 +309,10 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: devfolio}, {src: polygon}, {src: solana}], //Array 1
+  [{src: filecoin}, {src: replit}] //Array 2
+  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
@@ -351,11 +351,6 @@ const frequentlyAskedQuestions = [
         label: 'I have more questions?',
         content:
           'Reach us directly at (secyweb.sg@iitbbs.ac.in) We would be happy to help you.'
-      },
-      {
-        label: 'Can i volunteer?',
-        content:
-          'Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you.'
       },
       {
         label: 'Will there be swag?',
