@@ -85,6 +85,9 @@ h1 {
 }
 
 @media (max-width: 570px) {
+   .info {
+    margin-top: 10vh;
+   }
   #team {
     margin-top:0;
   }

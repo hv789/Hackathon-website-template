@@ -1,4 +1,5 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
+import logo from './Assets/logo.png';
 
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
@@ -46,7 +47,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/webnd.iitbbs',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
+  discord: 'https://discord.gg/aFCW38EN',
   linkedin: 'https://www.linkedin.com/company/webd-iitbbs',
   twitter: 'https://twitter.com/HacksLimbo',
   github: 'https://github.com/webd-iitbbs',
@@ -58,7 +59,7 @@ const MIDDLE_SECTION = {
   TITLE: 'What is Code Relay 2.0?',
   LONG_DESCRIPTION:
     'Code Relay 2.0 is a 72 hours long annual coding hackathon conducted by the Web & Design society of IIT Bhubaneswar. It is a platform where aspiring coders and programmers come together to showcase their talent, learn from experts, and network with peers. The event promises to be bigger and better this year, with more exciting challenges and opportunities for participants to win prizes and recognition.',
-  LOGO: hackathonLogo
+  LOGO: logo
 };
 
 const FOOTER = {
@@ -156,54 +157,46 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      src: polygon,
+      // <i className="first fas fa-4x fa-trophy"></i>,
       type: 'overall First',
-      content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+      content: [
+        '⦿ $150 for the best hack built on Ethereum, OR ',
+        '⦿ $200 for the best hack built on Ethereum+Polygon',
+        '⦿ Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!'
+      ]
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
+      // icon: <i className=" second fas fa-4x fa-medal"></i>,
+      src: filecoin,
       type: 'overall Second',
-      content:
-        'Second Overall prize will be given to the second best project of the hackathon'
-    },
-    {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
-      content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+      content: [
+        '⦿ $250 for best use of IPFS and/or Filecoin',
+        '⦿ Microgrants up to 5,000 USD, open grants up to 50,000 USD.'
+      ]
     }
   ],
   [
+    {
+      // icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
+      src: replit,
+      type: 'Third Second',
+      content: [
+        '⦿ $50 to winning project of the hackathon (must be deployed on Replit)',
+        '⦿ Replit schwags to 5 eligible submissions deployed on Replit.',
+        '⦿ Eligibility to apply for internship/full-time roles at Replit'
+      ]
+    },
     //Array 2
     {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+      // icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+      src: solana,
       type: 'Best Solo',
-      content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
-      content: 'More prizes will be revealed later'
+      content: [
+        '⦿ $USDC 100 for the best project beginners just starting out on Solana and/or',
+        '⦿ $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or',
+        '⦿ $USDC 500 for the best advanced project that is almost ready for full-time development. Learn more here.'
+      ]
     }
   ]
 ];
@@ -225,14 +218,14 @@ const TeamInfo = [
       img: me
     },
     {
-      name: 'Moon',
+      name: 'Lalit Lalchand Mohanani',
       role: 'Organizer',
       github: '',
       linkedin: '',
       img: moon
     },
     {
-      name: 'Erika',
+      name: 'Harsha Vardhan',
       role: 'Organizer',
       github: '',
       linkedin: '',

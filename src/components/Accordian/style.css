@@ -58,7 +58,7 @@ margin-top: 10px;
 .panel__content {
   margin: 5px 25px 25px;
   font-size: 17px;
-  color: #494948;
+  color: #2c2c2b;
   opacity: 0;
   transition: opacity 0.3s linear 0.18s;
 }

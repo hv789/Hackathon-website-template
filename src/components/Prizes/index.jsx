@@ -11,9 +11,18 @@ function PrizeHeading(props) {
 function FirstPrize(props) {
   return (
     <div className="Prizes">
-      {props.icon}
-      <h2>{props.type}</h2>
-      <p>{props.content}</p>
+      <img
+        src={props.srcx}
+        height="110px"
+        width="310px"
+        alt="Code Relay 2.0"
+      ></img>
+      {/* {props.icon} */}
+      {/* <h2>{props.type}</h2> */}
+      {props.content[0] && <p>{props.content[0]}</p>}
+      {props.content[1] && <p>{props.content[1]}</p>}
+      {props.content[2] && <p>{props.content[2]}</p>}
+      {props.content[3] && <p>{props.content[3]}</p>}
     </div>
   );
 }

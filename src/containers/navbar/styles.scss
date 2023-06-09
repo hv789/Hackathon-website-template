@@ -1,10 +1,3 @@
-.logoo{
-  //fixed to right side of navbar
-  position: absolute;
-  right: 0;
-  // margin-right: 2rem;
-  // margin-top: 1rem;
-}
 .nav_bar {
   list-style-type: none;
   height: 50px;
@@ -32,7 +25,9 @@
   }
 
   .s-open,
-  .s-close {
+  .s-close,
+  .logoo1,
+  .smallLogo{
     display: none;
   }
   .nav-inner {
@@ -62,6 +57,18 @@
   }
 
   @media (max-width: 1000px) {
+    .smallLogo{
+      display: inline-block;
+      list-style-type: none;
+      height: 60px;
+      position: fixed;
+      width: 100%;
+      z-index: -10;
+      background: #121930;
+    }
+    .logoo {
+      display: none;
+    }
     .ease {
       background: #484848;
       height: 75%;
@@ -71,6 +78,13 @@
     ul {
       flex-direction: column;
       padding: 30px 20;
+    }
+    .logoo1{
+      display: inline;
+      position: absolute;
+      left: 10px;
+      top: 5px;
+      z-index: -1;
     }
     .s-open {
       display: inline;

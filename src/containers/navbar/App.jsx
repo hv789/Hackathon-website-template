@@ -4,7 +4,7 @@ import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
 import logoClose from './assets/ham-c.svg';
-import logoo from './assets/logoo.png';
+import logo1 from './assets/logo1.png';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
@@ -26,7 +26,11 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 35%;
-      background-color: rgba(50, 13, 136);
+      font-size: 2rem;
+      background-color: transparent;
+      backdrop-filter: blur(25px);
+      // box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
+      // background-color: rgba(50, 13, 136);
     }
   }
 `;
@@ -97,6 +101,7 @@ const NAVBAR = ({}) => {
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
             <ul>
+              <img className="logoo" height="50px" width="50px" src={logo1} />
               <li>
                 <Link to={`#home`} style={{textDecoration: 'none'}}>
                   <span className="links">Home </span>{' '}
@@ -131,6 +136,14 @@ const NAVBAR = ({}) => {
           </div>
           <div className="ease" />
         </Wrapper>
+        <div className="smallLogo">
+          <img className="logoo1" height="50px" width="50px" src={logo1} />
+        </div>
+        <img
+          className="s-open"
+          onClick={() => setToggle(false)}
+          src={hamLogo}
+        />
       </nav>
 
       <Switch>

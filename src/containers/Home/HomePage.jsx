@@ -33,7 +33,13 @@ const SponsorGroup = (props, index) => {
   return (
     <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={6}>
+        <Col
+          key={i}
+          className=""
+          sm={12}
+          lg={index == 1 ? 6 : 4}
+          md={index == 1 ? 6 : 4}
+        >
           {' '}
           <Sponsor srcx={s.src} />{' '}
         </Col>
@@ -47,8 +53,8 @@ const PrizeGroup = (props, index) => {
   return (
     <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        <Col key={i} className="" sm={12} lg={6} md={6}>
+          <FirstPrize srcx={s.src} type={s.type} content={s.content} />
         </Col>
       ))}
     </Row>
@@ -123,21 +129,21 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Sponsored Prizes" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        <Row className="prizesection non-coding">
+        {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
           <h2>coming soon</h2>
-        </Row>
+        </Row> */}
 
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <SponsorUS />
+          {/* <SponsorUS /> */}
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
