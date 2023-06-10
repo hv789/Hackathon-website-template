@@ -15,11 +15,12 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  border: 5px solid rgb(255, 194, 252);
+  border: 5px solid rgb(227, 159, 224);
 }
 .members-link {
   text-align: center;
 }
+ 
 .members-link a {
   margin: 0 7px;
   cursor: pointer;

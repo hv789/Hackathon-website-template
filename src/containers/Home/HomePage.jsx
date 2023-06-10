@@ -167,7 +167,7 @@ export default function HomePage() {
 
         {/* ********Judges here ***** */}
 
-        <Row className="sponsorSection" id="sponsors">
+        {/* <Row className="sponsorSection" id="sponsors">
           <h1 id="team">Judges</h1>
         </Row>
         {FOOTER.JOIN_TEAM.required && (
@@ -177,7 +177,7 @@ export default function HomePage() {
             content="Interested in being judge"
           />
         )}
-        {JudgesInfo.map(TeamMembers)}
+        {JudgesInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

@@ -22,7 +22,6 @@ function FirstPrize(props) {
       {props.content[0] && <p>{props.content[0]}</p>}
       {props.content[1] && <p>{props.content[1]}</p>}
       {props.content[2] && <p>{props.content[2]}</p>}
-      {props.content[3] && <p>{props.content[3]}</p>}
     </div>
   );
 }

@@ -20,18 +20,21 @@ const JoinTeam: React.FC<IJoinTeam> = ({placeholder, formLink, content}) => {
 };
 
 const Member = ({info}: {info: any}) => {
-  const {github, role, name, img, linkedin} = info;
+  const {github, role, name, img, linkedin, instagram} = info;
   return (
     <div className="member">
       <img src={img} alt="Code Relay 2.0"></img>
       <div className="members-link">
         <h3>{name}</h3>
         <p>{role}</p>
-        <a href={github}>
+        <a href={github} target="_blank">
           <i className="fab fa-2x fa-github"></i>
         </a>
-        <a href={linkedin}>
+        <a href={linkedin} target="_blank">
           <i className="fab fa-2x fa-linkedin"></i>
+        </a>
+        <a href={instagram} target="_blank">
+          <i className="fab fa-2x fa-instagram"></i>
         </a>
       </div>
     </div>

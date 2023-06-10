@@ -64,7 +64,16 @@
       position: fixed;
       width: 100%;
       z-index: -10;
+      // background: #121930;
+      background-color: transparent;
+      backdrop-filter: blur(15px);
+      transition: height 800ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      background-color 800ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+    .smallLogo-offset-crossed {
       background: #121930;
+      height: 60px;
+      box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
     }
     .logoo {
       display: none;
@@ -90,14 +99,14 @@
       display: inline;
       position: absolute;
       right: 10px;
-      top: 10px;
+      top: 18px;
       z-index: -1;
     }
     .s-close {
       display: block;
       position: absolute;
       right: 10px;
-      top: 10px;
+      top: 18px;
     }
   }
 

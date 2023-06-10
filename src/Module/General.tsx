@@ -29,10 +29,11 @@ import lyin from './Assets/teami/lyin.jpg';
 
 // Importing all Team members images  from Assets
 
-import me from './Assets/teami/me.png';
-import moon from './Assets/teami/moon.png';
-import Ryah from './Assets/teami/Ryah.jpg';
-import zoha from './Assets/teami/zoha.png';
+import anurag from './Assets/teami/anurag.png';
+import ayush from './Assets/teami/ayush.png';
+import lalit from './Assets/teami/lalit.png';
+import mohan from './Assets/teami/mohan.png';
+import harsha from './Assets/teami/harsha.png';
 
 const TOP_SECTION = {
   TITLE: 'Join Code Relay 2.0',
@@ -51,7 +52,7 @@ const SOCIALS = {
   linkedin: 'https://www.linkedin.com/company/webd-iitbbs',
   twitter: 'https://twitter.com/HacksLimbo',
   github: 'https://github.com/webd-iitbbs',
-  email: 'secyweb.sg@iitbbs.ac.in',
+  email: 'mailto:secyweb.sg@iitbbs.ac.in',
   mail: 'secyweb.sg@iitbbs.ac.in'
 };
 
@@ -99,8 +100,8 @@ const schedule = [
     events: [
       {
         title: 'Hacking Period Begins',
-        timings: 'Starts at 00:00 AM',
-        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
+        timings: 'Starts at 00:00 IST',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230715%2F20230716&details=The%20hacking%20period%20starts%20at%2000%3A00%20IST%20on%2015th%20July%20and%20continues%20for%2072%20hrs.&location=Online&text=Hacking%20Period%20Starts'
       }
     ]
   },
@@ -109,13 +110,13 @@ const schedule = [
     events: [
       {
         title: 'Doubts Clearing Session 01',
-        timings: '12 AM - 1 Pm',
-        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
+        timings: '10:00 - 11:00',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230716T043000Z%2F20230716T053000Z&details=Doubts%20Clearing%20Session%2001&location=Online&text=Doubts%20Clearing%20Session%2001'
       },
       {
         title: 'Doubts Clearing Session 02',
-        timings: '12 AM - 1 Pm',
-        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
+        timings: '16:00 - 17:00',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230716T103000Z%2F20230716T113000Z&details=Doubts%20Clearing%20Session%2002&location=Online&text=Doubts%20Clearing%20Session%2002'
       }
     ]
   },
@@ -124,8 +125,8 @@ const schedule = [
     events: [
       {
         title: 'Preliminary Evaluation',
-        timings: '12 AM - 1 Pm',
-        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
+        timings: '16:00 - 17:00',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230717T103000Z%2F20230717T113000Z&details=Preliminary%20Evaluation&location=Online&text=Preliminary%20Evaluation'
       }
     ]
   },
@@ -134,8 +135,8 @@ const schedule = [
     events: [
       {
         title: 'Hacking Period Ends',
-        timings: 'Ends at 00:00 AM',
-        link: 'http://www.google.com/calendar/render?action=TEMPLATE&trp=false&sprop=&sprop=name:'
+        timings: 'Ends at 00:00 IST',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230718%2F20230719&details=The%20hacking%20period%20ends%20at%2000%3A00%20IST%20on%2018th%20July.&location=Online&text=Hacking%20Period%20Ends'
       }
     ]
   }
@@ -174,6 +175,7 @@ const Prizeinfo = [
         '⦿ $250 for best use of IPFS and/or Filecoin',
         '⦿ Microgrants up to 5,000 USD, open grants up to 50,000 USD.'
       ]
+      // link: 'https://github.com/filecoin-project/devgrants/blob/master/README.md',
     }
   ],
   [
@@ -195,8 +197,9 @@ const Prizeinfo = [
       content: [
         '⦿ $USDC 100 for the best project beginners just starting out on Solana and/or',
         '⦿ $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or',
-        '⦿ $USDC 500 for the best advanced project that is almost ready for full-time development. Learn more here.'
+        '⦿ $USDC 500 for the best advanced project that is almost ready for full-time development.'
       ]
+      // link: 'https://replit.com/@devfolio/Solana-Starter?v=1#README.md',
     }
   ]
 ];
@@ -213,87 +216,95 @@ const TeamInfo = [
     {
       name: 'Anurag Mani Tripathi',
       role: 'Secretary',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/',
-      img: me
+      github: 'https://github.com/garunAMT',
+      linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a',
+      instagram:
+        'https://instagram.com/anurag._tripathi?igshid=MzNlNGNkZWQ4Mg==',
+      img: anurag
     },
     {
-      name: 'Lalit Lalchand Mohanani',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
+      name: 'Ayush Tiwari',
+      role: 'Governor',
+      github: 'https://github.com/ayushtiwari110',
+      linkedin: 'https://www.linkedin.com/in/tiwari-ayush',
+      instagram:
+        'https://instagram.com/ayush_tiwari.2021?igshid=ZGUzMzM3NWJiOQ==',
+      img: ayush
     },
     {
-      name: 'Harsha Vardhan',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
+      name: 'Kattamuri Mohan krishna',
+      role: 'Governor',
+      github: 'https://github.com/Kattamurimohan1201',
+      linkedin: 'https://www.linkedin.com/in/kattamuri-mohankrishna-62a3b3239',
+      instagram:
+        'https://instagram.com/kattamuri_mohan_1201?igshid=MzRlODBiNWFlZA==',
+      img: mohan
     }
   ],
   [
     //Array 2
     {
-      name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
+      name: 'Lalit Mohanani',
+      role: 'Governor',
+      github: 'https://github.com/lalit-mohanani',
+      linkedin: 'https://www.linkedin.com/in/lalit-mohanani/',
+      instagram: 'https://www.instagram.com/lalit._.mohanani/',
+      img: lalit
     },
     {
-      name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
+      name: 'Harsha Vardhan',
+      role: 'Web Developer',
+      github: 'https://github.com/hv789',
+      linkedin: 'https://www.linkedin.com/in/hv8/',
+      instagram: 'https://www.instagram.com/harsha_vardhan.04/',
+      img: harsha
     }
   ]
 ];
 
-const JudgesInfo = [
-  [
-    //Array 1
-    {
-      name: 'Anurag Mani Tripathi',
-      role: 'Secretary',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/',
-      img: me
-    },
-    {
-      name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
-    }
-  ]
-];
+// const JudgesInfo = [
+//   [
+//     //Array 1
+//     {
+//       name: 'Anurag Mani Tripathi',
+//       role: 'Secretary',
+//       github: '',
+//       linkedin: 'https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/',
+//       img: me
+//     },
+//     {
+//       name: 'Moon',
+//       role: 'Organizer',
+//       github: '',
+//       linkedin: '',
+//       img: moon
+//     },
+//     {
+//       name: 'Ryah Garcia',
+//       role: 'Organizer',
+//       github: '',
+//       linkedin: '',
+//       img: Ryah
+//     }
+//   ],
+//   [
+//     //Array 2
+//     {
+//       name: 'Lyanola',
+//       role: 'Organizer',
+//       github: '',
+//       linkedin: '',
+//       img: lyin
+//     },
+//     {
+//       name: 'Zoheb',
+//       role: 'Organizer',
+//       github: '',
+//       linkedin: '',
+//       img: zoha
+//     }
+//   ]
+// ];
 
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
@@ -328,10 +339,6 @@ const frequentlyAskedQuestions = [
         label: 'I am a first time hacker, what should I do?',
         content:
           'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. Code Relay 2.0 will help you get started with hackathon and hacking in general.'
-      },
-      {
-        label: 'How team formation works?',
-        content: 'You can form team with 1-4 members in it.'
       }
     ],
     [
@@ -346,8 +353,8 @@ const frequentlyAskedQuestions = [
           'Reach us directly at (secyweb.sg@iitbbs.ac.in) We would be happy to help you.'
       },
       {
-        label: 'Will there be swag?',
-        content: 'Yes! Participants will receiving Code Relay swag!.'
+        label: 'How team formation works?',
+        content: 'You can form team with 1-4 members in it.'
       }
     ]
   ]
@@ -361,7 +368,7 @@ export {
   Prizeinfo,
   sponsorLogos,
   TeamInfo,
-  JudgesInfo,
+  // JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate

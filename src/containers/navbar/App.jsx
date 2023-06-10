@@ -26,11 +26,19 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 35%;
+      border-radius: 0 0 8px 8px;
       font-size: 2rem;
       background-color: transparent;
       backdrop-filter: blur(25px);
       // box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
       // background-color: rgba(50, 13, 136);
+      transition: height 800ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        background-color 800ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+    .nav-content-offset-crossed {
+      background: #121930;
+      height: 35%;
+      box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
     }
   }
 `;
@@ -99,9 +107,16 @@ const NAVBAR = ({}) => {
     <Router>
       <nav className={`nav_bar ${isOffset && 'nav_bar-offset-crossed'}`}>
         <Wrapper toggle={toggle}>
-          <div className="nav-content" ref={navigation}>
+          <div
+            className={`nav-content ${
+              isOffset && 'nav-content-offset-crossed'
+            }`}
+            ref={navigation}
+          >
             <ul>
-              <img className="logoo" height="50px" width="50px" src={logo1} />
+              <a href="/">
+                <img className="logoo" height="50px" width="50px" src={logo1} />
+              </a>
               <li>
                 <Link to={`#home`} style={{textDecoration: 'none'}}>
                   <span className="links">Home </span>{' '}
@@ -136,7 +151,7 @@ const NAVBAR = ({}) => {
           </div>
           <div className="ease" />
         </Wrapper>
-        <div className="smallLogo">
+        <div className={`smallLogo ${isOffset && 'smallLogo-offset-crossed'}`}>
           <img className="logoo1" height="50px" width="50px" src={logo1} />
         </div>
         <img
