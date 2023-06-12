@@ -97,14 +97,9 @@ const schedule = [
     day: '16-7-2023',
     events: [
       {
-        title: 'Doubts Clearing Session 01',
-        timings: '10:00 - 11:00',
-        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230716T043000Z%2F20230716T053000Z&details=Doubts%20Clearing%20Session%2001&location=Online&text=Doubts%20Clearing%20Session%2001'
-      },
-      {
-        title: 'Doubts Clearing Session 02',
-        timings: '16:00 - 17:00',
-        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230716T103000Z%2F20230716T113000Z&details=Doubts%20Clearing%20Session%2002&location=Online&text=Doubts%20Clearing%20Session%2002'
+        title: 'Hacking phase',
+        timings: 'All day',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230716%2F20230718&details=Hacking%20Phase&location=Online&text=Hacking%20Phase'
       }
     ]
   },
@@ -112,9 +107,9 @@ const schedule = [
     day: '17-7-2023',
     events: [
       {
-        title: 'Preliminary Evaluation',
-        timings: '16:00 - 17:00',
-        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230717T103000Z%2F20230717T113000Z&details=Preliminary%20Evaluation&location=Online&text=Preliminary%20Evaluation'
+        title: 'Hacking phase',
+        timings: 'All day',
+        link: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230717%2F20230719&details=Hacking%20Phase&location=Online&text=Hacking%20Phase'
       }
     ]
   },
