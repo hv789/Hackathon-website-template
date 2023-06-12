@@ -1,16 +1,11 @@
 import {useEffect, useState} from 'react';
 import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
 import {Btn} from '../Landing/index.jsx';
-import cross from './assets/cross.svg';
-// import DevPost from './assets/icons8-dev-post.svg';
 import Github from './assets/icons8-github.svg';
 import Dis from './assets/icons8-discord.svg';
 import Insta from './assets/icons8-instagram.svg';
 import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
-// import Twitter from './assets/icons8-twitter.svg';
-import PrivacyPolicy from './assets/Privacy policy.pdf';
-import TermsOfUse from './assets/Terms of use.pdf';
 //------------------------------------------------------------------
 import './style.scss';
 
@@ -100,7 +95,7 @@ const Footer = () => {
             </a>{' '}
           </p>
 
-          {FOOTER.Privacy_policy.required && (
+          {/* {FOOTER.Privacy_policy.required && (
             <a
               href={PrivacyPolicy}
               download
@@ -119,7 +114,7 @@ const Footer = () => {
             >
               <p>Terms of Use</p>
             </a>
-          )}
+          )} */}
           <p>Made with ❤️</p>
         </div>
         {/* {template && viewTemplate && (

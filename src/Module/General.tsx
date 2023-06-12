@@ -1,4 +1,3 @@
-import hackathonLogo from './Assets/hackathonLogo.png';
 import logo from './Assets/logo.png';
 
 // Importing all sponsors logos from Assets
@@ -7,20 +6,12 @@ import logo from './Assets/logo.png';
  * or you can provide a cloud link in src also
  */
 
-import boy from './Assets/boy.png';
+// import boy from './Assets/boy.png';
 import devfolio from './Assets/sponsorsLogos/devfolio.png';
 import polygon from './Assets/sponsorsLogos/polygon.png';
 import solana from './Assets/sponsorsLogos/solana.png';
 import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import replit from './Assets/sponsorsLogos/replit.png';
-// import glimpse from './Assets/sponsorsLogos/glimpse.png';
-// import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-// import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-// import Replit from './Assets/sponsorsLogos/replit.png';
-// import sublime from './Assets/sponsorsLogos/sublime.png';
-// import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -40,9 +31,7 @@ const TOP_SECTION = {
   Typed_effect: ['72 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
     'Join us on 15th July 2023 with hundreds of students from across the nation for 72 hours of creation, innovation, & fun.',
-  IMG_SRC: boy,
-  DISCORD_LINK: '',
-  JUDGES_FORM_LINK: '',
+  DISCORD_LINK: 'https://discord.gg/aFCW38EN',
   HACKERS_REGISTRATION_FORM_LINK: ''
 };
 
@@ -50,7 +39,6 @@ const SOCIALS = {
   instagram: 'https://www.instagram.com/webnd.iitbbs',
   discord: 'https://discord.gg/aFCW38EN',
   linkedin: 'https://www.linkedin.com/company/webd-iitbbs',
-  twitter: 'https://twitter.com/HacksLimbo',
   github: 'https://github.com/webd-iitbbs',
   email: 'mailto:secyweb.sg@iitbbs.ac.in',
   mail: 'secyweb.sg@iitbbs.ac.in'
@@ -313,10 +301,8 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: devfolio}, {src: polygon}, {src: solana}], //Array 1
-  [{src: filecoin}, {src: replit}] //Array 2
-  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: devfolio}, {src: polygon}], //Array 1
+  [{src: solana}, {src: filecoin}, {src: replit}] //Array 2
 ];
 
 /** Instructions

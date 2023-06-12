@@ -12,18 +12,18 @@ import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
-  SponsorsHead,
-  SponsorUS
+  SponsorsHead
+  // SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {
   FOOTER,
   frequentlyAskedQuestions,
-  JudgesInfo,
+  // JudgesInfo,
   Prizeinfo,
   sponsorLogos,
-  TeamInfo,
-  TOP_SECTION
+  TeamInfo
+  // TOP_SECTION
 } from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
@@ -31,20 +31,42 @@ import pattern from './assets/pattern4.png';
 
 const SponsorGroup = (props, index) => {
   return (
-    <Row key={index}>
-      {props.map((s, i) => (
-        <Col
-          key={i}
-          className=""
-          sm={12}
-          lg={index == 1 ? 6 : 4}
-          md={index == 1 ? 6 : 4}
-        >
-          {' '}
-          <Sponsor srcx={s.src} />{' '}
-        </Col>
-      ))}
-    </Row>
+    <>
+      {index == 0 && (
+        <Row key={index}>
+          {props.map((s, i) => (
+            <Col
+              key={i}
+              className=""
+              sm={12}
+              lg={index == 0 ? 6 : 4}
+              md={index == 0 ? 6 : 4}
+            >
+              {' '}
+              <Sponsor srcx={s.src} />{' '}
+            </Col>
+          ))}
+        </Row>
+      )}
+      <br className="line-break" />
+      {/* <br /> */}
+      {index == 1 && (
+        <Row key={index}>
+          {props.map((s, i) => (
+            <Col
+              key={i}
+              className=""
+              sm={12}
+              lg={index == 0 ? 6 : 4}
+              md={index == 0 ? 6 : 4}
+            >
+              {' '}
+              <Sponsor srcx={s.src} />{' '}
+            </Col>
+          ))}
+        </Row>
+      )}
+    </>
   );
 };
 
@@ -66,7 +88,13 @@ const TeamMembers = (props, index) => {
   return (
     <Row key={index} className="members">
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
+        <Col
+          key={i}
+          className=""
+          sm={12}
+          lg={index == 1 ? 6 : 4}
+          md={index == 1 ? 6 : 4}
+        >
           <Member info={s} />
         </Col>
       ))}
@@ -143,6 +171,8 @@ export default function HomePage() {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
+          <br />
+          <br />
           {/* <SponsorUS /> */}
           {sponsorLogos.map(SponsorGroup)}
         </Row>
