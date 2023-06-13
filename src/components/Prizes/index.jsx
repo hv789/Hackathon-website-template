@@ -14,7 +14,7 @@ function FirstPrize(props) {
       <img
         src={props.srcx}
         height="110px"
-        width="310px"
+        width="320px"
         alt="Code Relay 2.0"
       ></img>
       {/* {props.icon} */}
