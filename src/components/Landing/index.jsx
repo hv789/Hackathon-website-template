@@ -39,7 +39,11 @@ const Myinfo = () => {
         </a>
       </div>
       <div className="buttom-group">
-        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+        <a
+          href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+          target="_blank"
+          rel="noreferrer"
+        >
           {' '}
           <Btn
             class="register"

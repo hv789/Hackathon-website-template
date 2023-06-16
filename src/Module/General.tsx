@@ -31,13 +31,13 @@ const TOP_SECTION = {
   Typed_effect: ['72 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
     'Join us on 15th July 2023 with hundreds of students from across the nation for 72 hours of creation, innovation, & fun.',
-  DISCORD_LINK: 'https://discord.gg/aFCW38EN',
-  HACKERS_REGISTRATION_FORM_LINK: ''
+  DISCORD_LINK: 'https://discord.gg/Ct9CN3ae',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://code-relay.devfolio.co/'
 };
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/webnd.iitbbs',
-  discord: 'https://discord.gg/aFCW38EN',
+  discord: 'https://discord.gg/Ct9CN3ae',
   linkedin: 'https://www.linkedin.com/company/webd-iitbbs',
   github: 'https://github.com/webd-iitbbs',
   email: 'mailto:secyweb.sg@iitbbs.ac.in',

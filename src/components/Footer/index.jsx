@@ -78,7 +78,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          <a
+            href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+            target="_blank"
+            rel="noreferrer"
+          >
             <Btn type="Register" overlay="@Devfolio" />
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
