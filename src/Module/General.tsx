@@ -239,7 +239,7 @@ const TeamInfo = [
       role: 'Web Developer',
       github: 'https://github.com/hv789',
       linkedin: 'https://www.linkedin.com/in/hv8/',
-      instagram: 'https://www.instagram.com/harsha_vardhan.04/',
+      instagram: 'https://www.instagram.com/hv789_/',
       img: harsha
     }
   ]
